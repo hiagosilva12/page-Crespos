@@ -1,0 +1,427 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    background-color: #FFFFFF;;
+    background-repeat: repeat;
+    z-index: 1;
+}
+
+.logo {
+    height: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 30%;
+}
+
+.menu-opcoes {
+    width: 80%;
+}
+
+.menu-opcoes li{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    color: #9767A9;
+    font-size: 18px;
+}
+
+.menu-opcoes ul {
+    display: flex;
+    list-style: none;
+}
+
+.dicas:hover {
+    font-weight: bold;
+}
+
+.crono:hover {
+    font-weight: bold;
+}
+
+.ref:hover {
+    font-weight: bold;
+}
+
+.produ:hover {
+    font-weight: bold;
+}
+
+.cadastro:hover {
+    font-weight: bold;
+}
+
+.contatos:hover {
+    font-weight: bold;
+}
+
+.btn-buscar {
+    height: 6vh;
+    width: 20%;
+    padding-left: 3rem;
+    font-size: 1.5rem;
+    color: grey;
+    border:#9767A9 3px solid;
+    border-radius: 50px;
+    background: url(imagens/Layer_3.svg) no-repeat;
+    background-size: 1.5rem;
+    background-position-y: center;
+    background-position-x: 1rem;
+    outline: 0;
+}
+
+.rede-sociais {
+    width: 19%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.banner {
+    background-image: url(imagens/cabeludo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position-x: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.banner div {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.banner h1 {
+    font-weight: 900;
+    font-size: 6rem;
+    height: 30vh;
+    width: 50%;
+}
+
+.banner h2 {
+    font-size: 40px;
+    color: #FFFFFF;
+    font-weight: 300;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    height: 30vh;
+    padding-top: 3rem;
+}
+
+.fundo-7passos {
+    background-color: #9767A9;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.title-paragraph {
+    width: 50%;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-size: 47px;
+}
+
+.paragraph {
+    width: 365px;
+    padding: 2rem;
+    color: white;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.main-conteudo {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.cabelo-no-espelho-img {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    position: absolute;
+    top: 133%;
+    left: 4%;
+}
+
+.cabelo-no-espelho-img img {
+    width: 80%;
+}
+
+.mulher-criança-img {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    position: absolute;
+    top: 176%;
+    left: 50%;
+}
+
+.mulher-criança-img img{
+    width: 80%;
+}
+
+.homem-de-cachos {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    position: absolute;
+    top: 250%;
+    left: 4%;
+}
+
+.homem-de-cachos img {
+    width: 80%;
+}
+
+.mulher-na-cadeira-img {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    position: absolute;
+    top: 287%;
+    left: 50%;
+}
+
+.mulher-na-cadeira-img img {
+    width: 80%;
+}
+
+.mulher-beijando-criança-img {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    position: absolute;
+    top: 361%;
+    left: 4%;
+}
+
+.mulher-beijando-criança-img img {
+    width: 80%;
+}
+
+.shampoo-na-cabeca-img {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    position: absolute;
+    top: 399%;
+    left: 50%;
+}
+
+.shampoo-na-cabeca-img img {
+    width: 80%;
+}
+
+.senhora-cabelo-branco-img {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    position: absolute;
+    top: 474%;
+    left: 4%;
+}
+
+.senhora-cabelo-branco-img img {
+    width: 80%;
+}
+
+.caminho-img {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    position: absolute;
+    top: 525%;
+    left: 50%;
+}
+
+.caminho-img img {
+    width: 80%;
+}
+
+.espelho-cor {
+    background-color: #9767A9;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 28%;
+    top: 189%;
+    left: 15%;
+    color: white;
+}
+
+.title-espelho {
+    font-family: 'Playfair Display', serif;
+    padding: 1rem;
+    font-size: 30px;
+}
+
+.paragraph-espelho {
+    font-family: 'Montserrat', sans-serif;
+    padding: 1rem;
+    font-size: 12px;
+}
+
+.referencia-cor {
+    background-color: #9767A9;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 27%;
+    top: 230%;
+    left: 61%;
+    color: white;
+}
+
+.title-referencia {
+    font-family: 'Playfair Display', serif;
+    padding: 1rem;
+    font-size: 30px;
+}
+
+.paragraph-referencia {
+    font-family: 'Montserrat', sans-serif;
+    padding: 1rem;
+    font-size: 12px;
+}
+
+.amavel-cor {
+    background-color: #9767A9;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 27%;
+    height: 45%;
+    top: 304%;
+    left: 15%;
+    color: white;
+}
+
+.title-amavel {
+    font-family: 'Playfair Display', serif;
+    padding: 1rem;
+    font-size: 32px;
+}
+
+.paragraph-amavel {
+    font-family: 'Montserrat', sans-serif;
+    padding: 1rem;
+    font-size: 15px;
+}
+
+.opiniao-cor {
+    background-color: #9767A9;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 28%;
+    top: 357%;
+    left: 61%;
+    color: white;
+}
+
+.title-opiniao {
+    font-family: 'Playfair Display', serif;
+    padding: 1rem;
+    font-size: 25px;
+}
+
+.paragraph-opiniao {
+    font-family: 'Montserrat', sans-serif;
+    padding: 1rem;
+    font-size: 13px;
+}
+
+.raizes-cor {
+    background-color: #9767A9;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 28%;
+    height: 45%;
+    top: 414%;
+    left: 15%;
+    color: white;
+}
+
+.title-raizes {
+    font-family: 'Playfair Display', serif;
+    padding: 1rem;
+    font-size: 25px;
+}
+
+.paragraph-raizes {
+    font-family: 'Montserrat', sans-serif;
+    padding: 1rem;
+    font-size: 13px;
+}
+
+.fases-cor {
+    background-color: #9767A9;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 28%;
+    height: 40%;
+    top: 464%;
+    left: 61%;
+    color: white;
+}
+
+.title-fases {
+    font-family: 'Playfair Display', serif;
+    padding: 1rem;
+    font-size: 25px;
+}
+
+.paragraph-fases {
+    font-family: 'Montserrat', sans-serif;
+    padding: 1rem;
+    font-size: 13px;
+}
+
+.orgulho-cor {
+    background-color: #9767A9;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 28%;
+    height: 33%;
+    top: 526%;
+    left: 15%;
+    color: white;
+}
+
+.title-orgulho {
+    font-family: 'Playfair Display', serif;
+    padding: 1rem;
+    font-size: 25px;
+}
+
+.paragraph-orgulho {
+    font-family: 'Montserrat', sans-serif;
+    padding: 1rem;
+    font-size: 13px;
+}
