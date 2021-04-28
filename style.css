@@ -93,6 +93,10 @@
     justify-content: space-evenly;
 }
 
+.rede-sociais a {
+    text-decoration: none;
+}
+
 .banner {
     background-image: url(imagens/cabeludo.png);
     background-repeat: no-repeat;
