@@ -39,6 +39,10 @@
     font-size: 18px;
 }
 
+.menu-opcoes a {
+    text-decoration: none;
+}
+
 .menu-opcoes ul {
     display: flex;
     list-style: none;
@@ -160,8 +164,8 @@
 .cabelo-no-espelho-img {
     display: flex;
     width: 50%;
-    justify-content: center;
     position: absolute;
+    justify-content: center;
     top: 133%;
     left: 4%;
 }
@@ -424,4 +428,184 @@
     font-family: 'Montserrat', sans-serif;
     padding: 1rem;
     font-size: 13px;
+}
+
+.main-img-black {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homem-com-coroa-img {
+    display: flex;
+    position: absolute;
+    top: 570%;
+    left: 5%;
+}
+
+.homem-com-coroa-img img {
+    width: 287px;
+}
+
+.mulher-igual-jane-img {
+    display: flex;
+    position: absolute;
+    top: 570%;
+    left: 27%;
+}
+
+.mulher-igual-jane-img img {
+    width: 190px;
+}
+
+.homem-de-dread-img {
+    display: flex;
+    position: absolute;
+    top: 607%;
+    left: 27%;
+}
+
+.homem-de-dread-img img {
+    width: 190px;
+}
+
+.gloria-img {
+    display: flex;
+    position: absolute;
+    top: 642%;
+    left: 5%;
+}
+
+.gloria-img img {
+    width: 287px;
+}
+
+.mulher-cabelo-grande-img {
+    display: flex;
+    position: absolute;
+    top: 642%;
+    left: 27%;
+}
+
+.mulher-cabelo-grande-img img {
+    width: 190px;
+}
+
+.cigarro-img {
+    display: flex;
+    position: absolute;
+    top: 570%;
+    left: 42%;
+}
+
+.cigarro-img img {
+    width: 188px;
+}
+
+.cabelo-snoopydog-img {
+    display: flex;
+    position: absolute;
+    top: 642%;
+    left: 42%;
+}
+
+.cabelo-snoopydog-img img {
+    width: 189px;
+}
+
+.cabelo-gigante-img {
+    display: flex;
+    position: absolute;
+    top: 570%;
+    left: 57%;
+}
+
+.cabelo-gigante-img img {
+    width: 287px;
+}
+
+.menina-sorrindo-img {
+    display: flex;
+    position: absolute;
+    top: 570%;
+    left: 79%;
+}
+
+.menina-sorrindo-img img {
+    width: 240px;
+}
+
+.homem-barba-img {
+    display: flex;
+    position: absolute;
+    top: 607%;
+    left: 79%;
+}
+
+.homem-barba-img img {
+    width: 240px;
+    height: 390px;
+}
+
+.div-footer {
+    background-color: #9767A9;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    position: absolute;
+    top: 680%;
+    width: 100%;
+}
+
+.img-esq {
+    display: flex;
+    position: absolute;
+    top: 29%;
+    left: 54%;
+}
+
+.img-topo {
+    display: flex;
+    position: absolute;
+    top: 25%;
+    left: 70%;
+}
+
+.img-dir {
+    display: flex;
+    position: absolute;
+    top: 29%;
+    left: 91%;
+}
+
+.ul-footer {
+    width: 100%;
+}
+
+.ul-footer a {
+    text-decoration: none;
+}
+
+.paragraph-footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2rem;
+    color: white;
+}
+
+.ul-footer li {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    color: white;
+    font-size: 18px;
+    padding-left: 6rem;
+}
+
+.ul-footer ul {
+    display: flex;
+    width: 90%;
 }
